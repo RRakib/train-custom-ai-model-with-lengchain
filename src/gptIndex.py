@@ -3,7 +3,7 @@ from langchain import OpenAI
 import sys
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 
 def createVectorIndex(path):
     tokens = 256
